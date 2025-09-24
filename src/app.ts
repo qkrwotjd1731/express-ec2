@@ -28,7 +28,7 @@ if (process.env.NODE_ENV === 'production') {
 const addCustomer = () => {
   return prisma.customer.create({
     data: {
-      id: 4,
+      // id: 4,
       name: 'Kim Code',
       email: 'kimcode@example.com',
     },
