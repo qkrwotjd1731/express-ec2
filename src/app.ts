@@ -46,4 +46,4 @@ app.get('/hello', (req, res) => {
   res.json({ message: 'success' });
 });
 
-app.listen(3000, () => console.log('Server Started'));
+app.listen(process.env.PORT, () => console.log('Server Started'));
